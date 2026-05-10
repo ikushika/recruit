@@ -252,6 +252,13 @@
             transform: translateX(4px);
         }
 
+        .hero-ctas {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
         .hero-img {
             position: absolute;
             right: 0;
@@ -878,9 +885,14 @@
             <div class="hero-badge"><i class="fas fa-calendar-check"></i> 週2日〜OK</div>
             <div class="hero-badge"><i class="fas fa-star"></i> 未経験歓迎</div>
         </div>
-        <a href="#contact" class="hero-cta">
-            採用情報を見る <i class="fas fa-arrow-right"></i>
-        </a>
+        <div class="hero-ctas">
+            <a href="#recruit" class="hero-cta">
+                採用情報を見る <i class="fas fa-arrow-right"></i>
+            </a>
+            <a href="#contact" class="hero-cta" style="background:transparent; border:1px solid var(--gold); color:var(--gold-light);">
+                今すぐ応募する <i class="fas fa-arrow-right"></i>
+            </a>
+        </div>
     </div>
 </section>
 
@@ -1052,6 +1064,13 @@
                     </tr>
                 </tbody>
             </table>
+        </div>
+
+        <!-- 応募ボタン -->
+        <div style="text-align:center; margin-top:48px;">
+            <a href="#contact" class="hero-cta" style="display:inline-flex;">
+                今すぐ応募する <i class="fas fa-arrow-right"></i>
+            </a>
         </div>
     </div>
 </section>
