@@ -1,0 +1,1305 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>採用情報 | 土鍋ご飯いくしか｜渋谷・中目黒の定食屋で働きませんか</title>
+    <meta name="description" content="渋谷・中目黒の定食屋「土鍋ご飯いくしか」の採用情報。時給1,300円〜、絶品賄い付き。ホールスタッフ・キッチンスタッフ・正社員（店長候補）募集中。週2日〜OK、未経験歓迎。">
+    <meta name="keywords" content="いくしか,土鍋ご飯,求人,アルバイト,渋谷,中目黒,定食屋,飲食,ホールスタッフ,キッチンスタッフ,正社員">
+    <meta property="og:title" content="採用情報 | 土鍋ご飯いくしか">
+    <meta property="og:description" content="渋谷・中目黒の定食屋「土鍋ご飯いくしか」で働きませんか。時給1,300円〜、絶品賄い付き。未経験OK・週2日〜勤務可能。">
+    <meta property="og:type" content="website">
+    <meta property="og:locale" content="ja_JP">
+    <link rel="icon" href="https://ikushika.com/favicon.ico">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <style>
+        :root {
+            --ink: #1a1612;
+            --ink-light: #3d3530;
+            --cream: #f7f3ee;
+            --cream-dark: #ede7de;
+            --gold: #b8965a;
+            --gold-light: #d4b07a;
+            --gold-pale: #f0e6d3;
+            --rust: #8b3a2a;
+            --white: #fdfaf7;
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: 'Noto Serif JP', serif;
+            background-color: var(--cream);
+            color: var(--ink);
+            line-height: 1.8;
+        }
+
+        /* ====== HEADER ====== */
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background: var(--ink);
+            border-bottom: 1px solid var(--gold);
+        }
+
+        .header-inner {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 24px;
+            height: 64px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+        }
+
+        .logo img {
+            height: 40px;
+            width: auto;
+            filter: brightness(0) invert(1);
+        }
+
+        nav.desktop-nav {
+            display: flex;
+            align-items: center;
+            gap: 32px;
+        }
+
+        nav.desktop-nav a {
+            color: #c8b99a;
+            text-decoration: none;
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            transition: color 0.2s;
+        }
+
+        nav.desktop-nav a:hover { color: var(--gold-light); }
+
+        .nav-cta {
+            background: var(--gold);
+            color: var(--ink) !important;
+            padding: 8px 20px;
+            font-weight: 700;
+            letter-spacing: 0.05em;
+        }
+
+        .nav-cta:hover { background: var(--gold-light); }
+
+        .mobile-menu-btn {
+            display: none;
+            background: none;
+            border: none;
+            color: var(--gold-light);
+            font-size: 22px;
+            cursor: pointer;
+            padding: 8px;
+        }
+
+        #mobile-nav {
+            display: none;
+            background: var(--ink);
+            border-top: 1px solid #3d3530;
+        }
+
+        #mobile-nav a {
+            display: block;
+            padding: 14px 24px;
+            color: #c8b99a;
+            text-decoration: none;
+            font-size: 14px;
+            border-bottom: 1px solid #2a2420;
+            letter-spacing: 0.06em;
+        }
+
+        #mobile-nav a:last-child {
+            background: var(--gold);
+            color: var(--ink);
+            font-weight: 700;
+            text-align: center;
+        }
+
+        /* ====== HERO ====== */
+        #hero {
+            position: relative;
+            min-height: 90vh;
+            display: flex;
+            align-items: center;
+            overflow: hidden;
+            background: var(--ink);
+        }
+
+        .hero-bg {
+            position: absolute;
+            inset: 0;
+            background-image: url('nakamegurofront.png');
+            background-size: cover;
+            background-position: center;
+            opacity: 0.25;
+        }
+
+        .hero-overlay {
+            position: absolute;
+            inset: 0;
+            background: linear-gradient(135deg, rgba(26,22,18,0.95) 0%, rgba(26,22,18,0.7) 60%, rgba(26,22,18,0.4) 100%);
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 80px 24px;
+            width: 100%;
+        }
+
+        .hero-eyebrow {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 28px;
+        }
+
+        .hero-eyebrow::before,
+        .hero-eyebrow::after {
+            content: '';
+            display: block;
+            width: 32px;
+            height: 1px;
+            background: var(--gold);
+        }
+
+        .hero-eyebrow span {
+            color: var(--gold);
+            font-size: 12px;
+            letter-spacing: 0.2em;
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+        }
+
+        .hero-title {
+            font-size: clamp(32px, 6vw, 64px);
+            font-weight: 700;
+            color: var(--white);
+            line-height: 1.35;
+            margin-bottom: 24px;
+            letter-spacing: 0.04em;
+        }
+
+        .hero-title em {
+            font-style: normal;
+            color: var(--gold-light);
+        }
+
+        .hero-sub {
+            font-size: clamp(14px, 2vw, 17px);
+            color: #c8b99a;
+            max-width: 520px;
+            margin-bottom: 48px;
+            line-height: 2;
+        }
+
+        .hero-badges {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 16px;
+            margin-bottom: 48px;
+        }
+
+        .hero-badge {
+            background: rgba(184,150,90,0.15);
+            border: 1px solid var(--gold);
+            padding: 12px 24px;
+            color: var(--gold-light);
+            font-size: 14px;
+            letter-spacing: 0.06em;
+        }
+
+        .hero-badge i {
+            margin-right: 8px;
+            color: var(--gold);
+        }
+
+        .hero-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            background: var(--gold);
+            color: var(--ink);
+            text-decoration: none;
+            padding: 18px 40px;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            transition: all 0.3s;
+        }
+
+        .hero-cta:hover {
+            background: var(--gold-light);
+            transform: translateX(4px);
+        }
+
+        .hero-img {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 42%;
+            height: 75%;
+            object-fit: cover;
+            opacity: 0.7;
+            mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.8) 30%, black 100%);
+            -webkit-mask-image: linear-gradient(to right, transparent 0%, rgba(0,0,0,0.8) 30%, black 100%);
+        }
+
+        /* ====== SECTION BASE ====== */
+        section { padding: 88px 24px; }
+
+        .container { max-width: 1100px; margin: 0 auto; }
+
+        .section-label {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .section-label span {
+            font-family: 'Cormorant Garamond', serif;
+            font-style: italic;
+            font-size: 13px;
+            color: var(--gold);
+            letter-spacing: 0.15em;
+        }
+
+        .section-label::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background: var(--gold);
+            opacity: 0.4;
+        }
+
+        .section-title {
+            font-size: clamp(24px, 4vw, 38px);
+            font-weight: 700;
+            color: var(--ink);
+            letter-spacing: 0.04em;
+            margin-bottom: 56px;
+            line-height: 1.4;
+        }
+
+        /* ====== BENEFITS ====== */
+        #benefits { background: var(--white); }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2px;
+            background: var(--cream-dark);
+        }
+
+        .benefit-card {
+            background: var(--white);
+            padding: 48px 36px;
+            transition: background 0.3s;
+        }
+
+        .benefit-card:hover { background: var(--gold-pale); }
+
+        .benefit-num {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 48px;
+            color: var(--gold);
+            opacity: 0.5;
+            line-height: 1;
+            margin-bottom: 16px;
+        }
+
+        .benefit-icon {
+            font-size: 28px;
+            color: var(--gold);
+            margin-bottom: 20px;
+        }
+
+        .benefit-title {
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 16px;
+            letter-spacing: 0.04em;
+        }
+
+        .benefit-text {
+            font-size: 14px;
+            color: var(--ink-light);
+            line-height: 2;
+        }
+
+        /* ====== PRODUCT ====== */
+        #product { background: var(--ink); }
+
+        #product .section-title { color: var(--white); }
+        #product .section-label span { color: var(--gold-light); }
+
+        .product-inner {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 64px;
+            align-items: center;
+        }
+
+        .product-img {
+            width: 100%;
+            aspect-ratio: 4/3;
+            object-fit: cover;
+            border: 1px solid var(--gold);
+        }
+
+        .product-text { color: #c8b99a; }
+
+        .product-text h3 {
+            font-size: clamp(20px, 3vw, 28px);
+            color: var(--gold-light);
+            margin-bottom: 24px;
+            line-height: 1.5;
+            font-weight: 700;
+        }
+
+        .product-text p {
+            font-size: 15px;
+            line-height: 2.2;
+            margin-bottom: 32px;
+        }
+
+        .product-list { list-style: none; }
+
+        .product-list li {
+            padding: 12px 0;
+            border-bottom: 1px solid #3d3530;
+            font-size: 14px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .product-list li i { color: var(--gold); width: 16px; }
+
+        /* ====== RECRUIT ====== */
+        #recruit { background: var(--cream); }
+
+        .tab-btns {
+            display: flex;
+            border-bottom: 1px solid var(--gold);
+            margin-bottom: 0;
+        }
+
+        .tab-btn {
+            flex: 1;
+            padding: 16px 24px;
+            background: none;
+            border: none;
+            font-family: 'Noto Serif JP', serif;
+            font-size: 14px;
+            letter-spacing: 0.08em;
+            color: #8a7a6a;
+            cursor: pointer;
+            transition: all 0.3s;
+            border-bottom: 2px solid transparent;
+            margin-bottom: -1px;
+        }
+
+        .tab-btn.active {
+            color: var(--ink);
+            border-bottom-color: var(--gold);
+            font-weight: 700;
+        }
+
+        .tab-btn i { margin-right: 8px; }
+
+        .tab-content { display: none; }
+        .tab-content.active { display: block; }
+
+        .recruit-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: var(--white);
+            border: 1px solid var(--cream-dark);
+        }
+
+        .recruit-table tr {
+            border-bottom: 1px solid var(--cream-dark);
+        }
+
+        .recruit-table tr:last-child { border-bottom: none; }
+
+        .recruit-table td {
+            padding: 20px 28px;
+            vertical-align: top;
+            font-size: 14px;
+            line-height: 2;
+        }
+
+        .recruit-table td:first-child {
+            width: 160px;
+            color: var(--gold);
+            font-weight: 700;
+            letter-spacing: 0.06em;
+            font-size: 13px;
+            background: var(--ink);
+            white-space: nowrap;
+        }
+
+        .recruit-table td:last-child { color: var(--ink-light); }
+
+        .salary-highlight {
+            font-size: 28px;
+            font-weight: 700;
+            color: var(--ink);
+            font-family: 'Cormorant Garamond', serif;
+        }
+
+        .salary-note {
+            font-size: 12px;
+            color: #8a7a6a;
+            margin-left: 8px;
+        }
+
+        .recruit-list { list-style: none; }
+        .recruit-list li {
+            padding: 4px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 8px;
+        }
+        .recruit-list li::before {
+            content: '―';
+            color: var(--gold);
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        /* ====== FLOW ====== */
+        #flow { background: var(--white); }
+
+        .flow-steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 0;
+            position: relative;
+        }
+
+        .flow-steps::before {
+            content: '';
+            position: absolute;
+            top: 28px;
+            left: calc(12.5% + 16px);
+            right: calc(12.5% + 16px);
+            height: 1px;
+            background: var(--gold);
+            opacity: 0.4;
+        }
+
+        .flow-step {
+            padding: 0 20px;
+            text-align: center;
+        }
+
+        .flow-num {
+            width: 56px;
+            height: 56px;
+            background: var(--ink);
+            border: 1px solid var(--gold);
+            color: var(--gold);
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 22px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .flow-step-title {
+            font-size: 14px;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 12px;
+            letter-spacing: 0.04em;
+        }
+
+        .flow-step-text {
+            font-size: 13px;
+            color: var(--ink-light);
+            line-height: 1.9;
+        }
+
+        /* ====== FAQ ====== */
+        #faq { background: var(--cream); }
+
+        .faq-list { max-width: 760px; margin: 0 auto; }
+
+        .faq-item {
+            border-bottom: 1px solid var(--cream-dark);
+        }
+
+        .faq-item:first-child { border-top: 1px solid var(--cream-dark); }
+
+        .faq-q {
+            width: 100%;
+            background: none;
+            border: none;
+            padding: 24px 0;
+            display: flex;
+            align-items: flex-start;
+            gap: 20px;
+            cursor: pointer;
+            text-align: left;
+            font-family: 'Noto Serif JP', serif;
+            transition: all 0.2s;
+        }
+
+        .faq-q:hover .faq-q-text { color: var(--gold); }
+
+        .faq-q-label {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 18px;
+            color: var(--gold);
+            font-style: italic;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .faq-q-text {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--ink);
+            flex: 1;
+            line-height: 1.7;
+            transition: color 0.2s;
+            letter-spacing: 0.03em;
+        }
+
+        .faq-chevron {
+            color: var(--gold);
+            flex-shrink: 0;
+            transition: transform 0.3s;
+            margin-top: 4px;
+        }
+
+        .faq-item.open .faq-chevron { transform: rotate(180deg); }
+
+        .faq-a {
+            display: none;
+            padding: 0 0 24px 38px;
+        }
+
+        .faq-a-label {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 15px;
+            color: #8a7a6a;
+            font-style: italic;
+            margin-right: 12px;
+        }
+
+        .faq-a-text {
+            display: inline;
+            font-size: 14px;
+            color: var(--ink-light);
+            line-height: 2;
+        }
+
+        /* ====== CONTACT ====== */
+        #contact { background: var(--ink); padding: 88px 24px; }
+
+        .contact-inner { max-width: 900px; margin: 0 auto; }
+
+        #contact .section-title { color: var(--white); }
+        #contact .section-label span { color: var(--gold-light); }
+
+        .contact-form-area {
+            background: rgba(255,255,255,0.04);
+            border: 1px solid var(--gold);
+            padding: 48px;
+            margin-bottom: 40px;
+        }
+
+        .contact-form-title {
+            font-size: 16px;
+            color: var(--gold-light);
+            letter-spacing: 0.1em;
+            margin-bottom: 32px;
+            padding-bottom: 16px;
+            border-bottom: 1px solid #3d3530;
+        }
+
+        .btn-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 16px;
+        }
+
+        .btn-apply {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            padding: 20px 16px;
+            text-decoration: none;
+            font-family: 'Noto Serif JP', serif;
+            font-size: 14px;
+            letter-spacing: 0.06em;
+            transition: all 0.3s;
+            border: 1px solid;
+        }
+
+        .btn-apply-part {
+            background: transparent;
+            border-color: var(--gold);
+            color: var(--gold-light);
+        }
+
+        .btn-apply-part:hover {
+            background: var(--gold);
+            color: var(--ink);
+        }
+
+        .btn-apply-full {
+            background: var(--gold);
+            border-color: var(--gold);
+            color: var(--ink);
+            font-weight: 700;
+        }
+
+        .btn-apply-full:hover {
+            background: var(--gold-light);
+            border-color: var(--gold-light);
+        }
+
+        .contact-tel {
+            border: 1px solid #3d3530;
+            padding: 40px 48px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 24px;
+        }
+
+        .tel-label {
+            color: #8a7a6a;
+            font-size: 13px;
+            letter-spacing: 0.1em;
+            margin-bottom: 8px;
+        }
+
+        .tel-note {
+            color: #5a4e44;
+            font-size: 13px;
+            margin-top: 8px;
+        }
+
+        .tel-numbers { text-align: right; }
+
+        .tel-number {
+            display: block;
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 26px;
+            color: var(--gold-light);
+            text-decoration: none;
+            letter-spacing: 0.05em;
+            line-height: 1.6;
+            transition: color 0.2s;
+        }
+
+        .tel-number:hover { color: var(--gold); }
+
+        .tel-store {
+            font-size: 12px;
+            color: #5a4e44;
+            margin-right: 12px;
+        }
+
+        /* ====== FOOTER ====== */
+        footer {
+            background: #0e0c0a;
+            padding: 48px 24px;
+            text-align: center;
+            border-top: 1px solid #2a2420;
+        }
+
+        .footer-sns {
+            display: flex;
+            justify-content: center;
+            gap: 32px;
+            margin-bottom: 32px;
+        }
+
+        .footer-sns a {
+            color: #5a4e44;
+            text-decoration: none;
+            font-size: 13px;
+            letter-spacing: 0.08em;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: color 0.2s;
+        }
+
+        .footer-sns a:hover { color: var(--gold); }
+        .footer-sns a i { font-size: 18px; }
+
+        .footer-copy {
+            font-size: 12px;
+            color: #3d3530;
+            letter-spacing: 0.08em;
+        }
+
+        /* ====== FADE IN ====== */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(24px);
+            transition: opacity 0.7s ease, transform 0.7s ease;
+        }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: none;
+        }
+
+        /* ====== RESPONSIVE ====== */
+        @media (max-width: 768px) {
+            section { padding: 64px 20px; }
+
+            nav.desktop-nav { display: none; }
+            .mobile-menu-btn { display: block; }
+
+            .hero-img { display: none; }
+
+            .hero-content { padding: 60px 20px; }
+
+            .hero-badges { gap: 10px; }
+            .hero-badge { font-size: 13px; padding: 10px 16px; }
+
+            .hero-cta { padding: 16px 28px; font-size: 15px; }
+
+            .benefits-grid { grid-template-columns: 1fr; gap: 2px; }
+            .benefit-card { padding: 36px 28px; }
+
+            .product-inner { grid-template-columns: 1fr; gap: 40px; }
+            .product-img { aspect-ratio: 16/9; }
+
+            .tab-btn { font-size: 12px; padding: 14px 12px; }
+
+            .recruit-table td:first-child { width: 100px; padding: 16px 16px; font-size: 12px; }
+            .recruit-table td:last-child { padding: 16px 16px; }
+
+            .flow-steps {
+                grid-template-columns: 1fr 1fr;
+                gap: 40px 20px;
+            }
+
+            .flow-steps::before { display: none; }
+
+            .btn-grid { grid-template-columns: 1fr; }
+
+            .contact-form-area { padding: 32px 24px; }
+            .contact-tel { padding: 32px 24px; flex-direction: column; }
+            .tel-numbers { text-align: left; }
+
+            .salary-highlight { font-size: 22px; }
+        }
+    </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+    <div class="header-inner">
+        <a href="#hero" class="logo">
+            <img src="ikushika_logo1.png" alt="土鍋ご飯いくしか">
+        </a>
+        <nav class="desktop-nav">
+            <a href="#benefits">仕事の魅力</a>
+            <a href="#product">こだわり</a>
+            <a href="#recruit">募集要項</a>
+            <a href="#flow">応募の流れ</a>
+            <a href="#faq">FAQ</a>
+            <a href="#contact" class="nav-cta">今すぐ応募</a>
+        </nav>
+        <button class="mobile-menu-btn" id="menuBtn" aria-label="メニュー">
+            <i class="fas fa-bars" id="menuIcon"></i>
+        </button>
+    </div>
+    <div id="mobile-nav">
+        <a href="#benefits">仕事の魅力</a>
+        <a href="#product">こだわり</a>
+        <a href="#recruit">募集要項</a>
+        <a href="#flow">応募の流れ</a>
+        <a href="#faq">FAQ</a>
+        <a href="#contact">今すぐ応募</a>
+    </div>
+</header>
+
+<!-- HERO -->
+<section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+    <img src="ikushika_022.jpg" alt="" class="hero-img" aria-hidden="true">
+    <div class="hero-content">
+        <div class="hero-eyebrow">
+            <span>Staff Recruitment</span>
+        </div>
+        <h1 class="hero-title">
+            美味しいを、<br>
+            <em>一緒に届けませんか。</em>
+        </h1>
+        <p class="hero-sub">
+            渋谷・中目黒の定食屋「土鍋ご飯いくしか」では、<br>
+            ホールスタッフ・キッチンスタッフ・正社員（店長候補）を募集しています。
+        </p>
+        <div class="hero-badges">
+            <div class="hero-badge"><i class="fas fa-coins"></i> 時給 1,300円〜</div>
+            <div class="hero-badge"><i class="fas fa-bowl-rice"></i> 絶品賄い付き</div>
+            <div class="hero-badge"><i class="fas fa-calendar-check"></i> 週2日〜OK</div>
+            <div class="hero-badge"><i class="fas fa-star"></i> 未経験歓迎</div>
+        </div>
+        <a href="#contact" class="hero-cta">
+            採用情報を見る <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+</section>
+
+<!-- BENEFITS -->
+<section id="benefits">
+    <div class="container">
+        <div class="section-label">
+            <span>Why Ikushika?</span>
+        </div>
+        <h2 class="section-title">いくしかで働く、3つの理由</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card fade-in">
+                <div class="benefit-num">01</div>
+                <div class="benefit-icon"><i class="fas fa-hands-clapping"></i></div>
+                <h3 class="benefit-title">活気あふれるチーム</h3>
+                <p class="benefit-text">20代スタッフが中心となって活躍。学生・フリーターが互いにサポートし合う、家族のような職場環境です。新しい仲間を皆で歓迎します。</p>
+            </div>
+            <div class="benefit-card fade-in">
+                <div class="benefit-num">02</div>
+                <div class="benefit-icon"><i class="fas fa-medal"></i></div>
+                <h3 class="benefit-title">頑張りを正当に評価</h3>
+                <p class="benefit-text">業務習得度に応じて時給を随時見直し。努力が給与に直結するシステムです。アルバイトから正社員を目指す方のキャリアアップも全力でサポートします。</p>
+            </div>
+            <div class="benefit-card fade-in">
+                <div class="benefit-num">03</div>
+                <div class="benefit-icon"><i class="fas fa-calendar-alt"></i></div>
+                <h3 class="benefit-title">学業・Wワークを両立</h3>
+                <p class="benefit-text">週2日・1日4時間から勤務OK。テスト期間やプライベートの予定を考慮し、柔軟にシフト調整します。交通費は規定内で全額支給。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- PRODUCT -->
+<section id="product">
+    <div class="container">
+        <div class="section-label">
+            <span>Our Craft</span>
+        </div>
+        <h2 class="section-title">私たちが届けるもの</h2>
+        <div class="product-inner">
+            <div class="fade-in">
+                <img src="ikushika_061.jpg" alt="炊き立ての土鍋ご飯" class="product-img">
+            </div>
+            <div class="product-text fade-in">
+                <h3>「定食」という名の、究極のホスピタリティ</h3>
+                <p>いくしかでは、土鍋で丁寧に炊いたご飯をお代わり自由でご提供しています。食材へのこだわりと、お客様への真心が、一皿一皿に宿っています。</p>
+                <ul class="product-list">
+                    <li><i class="fas fa-seedling"></i> お米や食材への深い知識が身につく</li>
+                    <li><i class="fas fa-fire-alt"></i> 和食の基本と丁寧な接客を習得</li>
+                    <li><i class="fas fa-handshake"></i> お客様との温かい交流を楽しめる</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- RECRUIT -->
+<section id="recruit">
+    <div class="container">
+        <div class="section-label">
+            <span>Recruit Details</span>
+        </div>
+        <h2 class="section-title">募集要項</h2>
+
+        <div class="tab-btns">
+            <button class="tab-btn active" data-tab="part">
+                <i class="fas fa-clock"></i> アルバイト（ホール・キッチン）
+            </button>
+            <button class="tab-btn" data-tab="full">
+                <i class="fas fa-user-tie"></i> 正社員（店長候補）
+            </button>
+        </div>
+
+        <div id="tab-part" class="tab-content active">
+            <table class="recruit-table">
+                <tbody>
+                    <tr>
+                        <td>募集職種</td>
+                        <td>ホールスタッフ / キッチンスタッフ</td>
+                    </tr>
+                    <tr>
+                        <td>時給</td>
+                        <td>
+                            <span class="salary-highlight">¥1,300〜</span>
+                            <span class="salary-note">※研修期間あり</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>勤務地</td>
+                        <td>
+                            渋谷店（渋谷駅 徒歩10分）<br>
+                            中目黒店（中目黒駅 徒歩5分）
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>勤務時間</td>
+                        <td>
+                            9:00〜23:00の間でシフト制<br>
+                            ランチタイムのみ・ディナータイムのみもOK
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>勤務日数</td>
+                        <td>週2日〜（長期雇用大歓迎・シフトは柔軟に対応）</td>
+                    </tr>
+                    <tr>
+                        <td>待遇</td>
+                        <td>
+                            <ul class="recruit-list">
+                                <li>交通費全額支給（規定あり）</li>
+                                <li>昇給あり（随時）</li>
+                                <li>絶品・土鍋ご飯の賄いあり</li>
+                                <li>社員登用制度あり</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div id="tab-full" class="tab-content">
+            <table class="recruit-table">
+                <tbody>
+                    <tr>
+                        <td>募集職種</td>
+                        <td>正社員（店長候補）</td>
+                    </tr>
+                    <tr>
+                        <td>給与</td>
+                        <td>
+                            <span class="salary-highlight">¥225,000〜</span><br>
+                            <span style="font-size:13px;color:#8a7a6a;">固定残業代 ¥50,000含む（30時間分）／超過分は別途支給</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>勤務地</td>
+                        <td>渋谷店 / 中目黒店</td>
+                    </tr>
+                    <tr>
+                        <td>休日</td>
+                        <td>月8日（勤務シフトによる）</td>
+                    </tr>
+                    <tr>
+                        <td>勤務時間</td>
+                        <td>1ヶ月単位の変形労働時間制・標準実働8時間（シフト制）</td>
+                    </tr>
+                    <tr>
+                        <td>昇給・賞与</td>
+                        <td>昇給：年1回 / 賞与：年1回</td>
+                    </tr>
+                    <tr>
+                        <td>諸手当</td>
+                        <td>
+                            <ul class="recruit-list">
+                                <li>時間外・深夜勤務手当</li>
+                                <li>職能手当・通勤手当・資格手当</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>その他</td>
+                        <td>
+                            <ul class="recruit-list">
+                                <li>年次有給休暇・社会保険完備</li>
+                                <li>健康診断・制服貸与・社員割引制度</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- FLOW -->
+<section id="flow">
+    <div class="container">
+        <div class="section-label">
+            <span>Application Flow</span>
+        </div>
+        <h2 class="section-title">応募から採用までの流れ</h2>
+        <div class="flow-steps fade-in">
+            <div class="flow-step">
+                <div class="flow-num">1</div>
+                <h3 class="flow-step-title">Web応募 / お電話</h3>
+                <p class="flow-step-text">Googleフォームまたはお電話でご応募ください。フォームは24時間受付中です。</p>
+            </div>
+            <div class="flow-step">
+                <div class="flow-num">2</div>
+                <h3 class="flow-step-title">日程調整</h3>
+                <p class="flow-step-text">採用担当からご連絡し、面接の日程を調整します。ご希望の曜日・時間をお知らせください。</p>
+            </div>
+            <div class="flow-step">
+                <div class="flow-num">3</div>
+                <h3 class="flow-step-title">面接（対面）</h3>
+                <p class="flow-step-text">店舗の雰囲気や仕事内容をご説明します。緊張せず、あなたの「やる気」をお聞かせください。</p>
+            </div>
+            <div class="flow-step">
+                <div class="flow-num">4</div>
+                <h3 class="flow-step-title">採用・勤務開始</h3>
+                <p class="flow-step-text">初出勤に向けて準備を進めます。最高のチームでお待ちしています。</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq">
+    <div class="container">
+        <div class="section-label">
+            <span>FAQ</span>
+        </div>
+        <h2 class="section-title">よくあるご質問</h2>
+        <div class="faq-list">
+
+            <div class="faq-item">
+                <button class="faq-q">
+                    <span class="faq-q-label">Q.</span>
+                    <span class="faq-q-text">飲食未経験でも大丈夫ですか？</span>
+                    <i class="fas fa-chevron-down faq-chevron"></i>
+                </button>
+                <div class="faq-a">
+                    <span class="faq-a-label">A.</span>
+                    <span class="faq-a-text">大歓迎です。経験豊富な先輩スタッフが一から丁寧に教えます。大切なのは「やる気」と「笑顔」です。マニュアルも完備していますのでご安心ください。</span>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q">
+                    <span class="faq-q-label">Q.</span>
+                    <span class="faq-q-text">シフトはどのように決まりますか？</span>
+                    <i class="fas fa-chevron-down faq-chevron"></i>
+                </button>
+                <div class="faq-a">
+                    <span class="faq-a-label">A.</span>
+                    <span class="faq-a-text">月に2回、自己申告制で提出していただきます。学業やプライベートの予定を優先できるよう柔軟に対応します。週2日・1日4時間から勤務可能です。</span>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q">
+                    <span class="faq-q-label">Q.</span>
+                    <span class="faq-q-text">賄いはどんなものが食べられますか？</span>
+                    <i class="fas fa-chevron-down faq-chevron"></i>
+                </button>
+                <div class="faq-a">
+                    <span class="faq-a-label">A.</span>
+                    <span class="faq-a-text">自慢の土鍋ご飯と日替わりのメイン料理が無料で食べられます。お店のメニューと同じ、絶品の定食です。スタッフからも大好評の特典です。</span>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q">
+                    <span class="faq-q-label">Q.</span>
+                    <span class="faq-q-text">髪色やピアスに規定はありますか？</span>
+                    <i class="fas fa-chevron-down faq-chevron"></i>
+                </button>
+                <div class="faq-a">
+                    <span class="faq-a-label">A.</span>
+                    <span class="faq-a-text">髪色はトーン8までの規定があります。ネイルは派手すぎるものはご遠慮ください。清潔感を重視していますが、面接時に詳しくご説明します。</span>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q">
+                    <span class="faq-q-label">Q.</span>
+                    <span class="faq-q-text">どんな年齢層のスタッフが働いていますか？</span>
+                    <i class="fas fa-chevron-down faq-chevron"></i>
+                </button>
+                <div class="faq-a">
+                    <span class="faq-a-label">A.</span>
+                    <span class="faq-a-text">20代半ばのスタッフが中心です。学生からフリーターまで、若い方が活躍できる職場です。皆仲が良く、活気があります。</span>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <button class="faq-q">
+                    <span class="faq-q-label">Q.</span>
+                    <span class="faq-q-text">研修期間はどのくらいありますか？</span>
+                    <i class="fas fa-chevron-down faq-chevron"></i>
+                </button>
+                <div class="faq-a">
+                    <span class="faq-a-label">A.</span>
+                    <span class="faq-a-text">約3ヶ月間を想定しています。個々の習熟度に合わせてトレーニングを進めますので、あなたのペースでじっくり仕事を覚えていただけます。</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact">
+    <div class="contact-inner">
+        <div class="section-label">
+            <span>Apply Now</span>
+        </div>
+        <h2 class="section-title">採用への第一歩</h2>
+
+        <div class="contact-form-area fade-in">
+            <p class="contact-form-title">Googleフォームで職種別応募（24時間受付）</p>
+            <div class="btn-grid">
+                <a href="https://docs.google.com/forms/d/1Pkn_w38PcrsgIVUVZ77ijgfb2rMUVh2-sijl0zgHE4M/viewform" target="_blank" rel="noopener noreferrer" class="btn-apply btn-apply-part">
+                    <i class="fas fa-concierge-bell"></i> ホールスタッフ応募
+                </a>
+                <a href="https://docs.google.com/forms/d/1n21WFO0vVLXQ-uz81SzdC8XRhyLhAjx4ViZ8nRGOcnc/viewform" target="_blank" rel="noopener noreferrer" class="btn-apply btn-apply-part">
+                    <i class="fas fa-kitchen-set"></i> キッチンスタッフ応募
+                </a>
+                <a href="https://docs.google.com/forms/d/1rnku1rPTJv-Jh7OIA9d1gR95cGTZOES0Hy8PPIELoTQ/viewform" target="_blank" rel="noopener noreferrer" class="btn-apply btn-apply-full">
+                    <i class="fas fa-user-tie"></i> 正社員応募
+                </a>
+            </div>
+        </div>
+
+        <div class="contact-tel fade-in">
+            <div>
+                <p class="tel-label">TEL</p>
+                <p style="color:#c8b99a;font-size:15px;font-weight:700;">お電話でのご応募・お問い合わせ</p>
+                <p class="tel-note">「求人を見て」とお伝えいただくとスムーズです</p>
+            </div>
+            <div class="tel-numbers">
+                <a href="tel:0364551948" class="tel-number">
+                    <span class="tel-store">渋谷店</span>03-6455-1948
+                </a>
+                <a href="tel:0363031944" class="tel-number">
+                    <span class="tel-store">中目黒店</span>03-6303-1944
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+    <div class="footer-sns">
+        <a href="https://www.instagram.com/580ikushika_com?igsh=MXFoeTI5NnN6aTkyMg%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i> 渋谷店 Instagram
+        </a>
+        <a href="https://www.instagram.com/581ikushika_com?igsh=MW43MXlwdWJva3g2NA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">
+            <i class="fab fa-instagram"></i> 中目黒店 Instagram
+        </a>
+    </div>
+    <p class="footer-copy">&copy; 2024 土鍋ご飯いくしか. All rights reserved.</p>
+</footer>
+
+<script>
+    // モバイルメニュー
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileNav = document.getElementById('mobile-nav');
+    const menuIcon = document.getElementById('menuIcon');
+
+    menuBtn.addEventListener('click', () => {
+        const isOpen = mobileNav.style.display === 'block';
+        mobileNav.style.display = isOpen ? 'none' : 'block';
+        menuIcon.className = isOpen ? 'fas fa-bars' : 'fas fa-xmark';
+    });
+
+    // モバイルメニューのリンクをクリックしたら閉じる
+    mobileNav.querySelectorAll('a').forEach(a => {
+        a.addEventListener('click', () => {
+            mobileNav.style.display = 'none';
+            menuIcon.className = 'fas fa-bars';
+        });
+    });
+
+    // スムーズスクロール
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+        a.addEventListener('click', e => {
+            const id = a.getAttribute('href').slice(1);
+            const el = document.getElementById(id);
+            if (el) {
+                e.preventDefault();
+                const offset = document.querySelector('header').offsetHeight;
+                window.scrollTo({ top: el.offsetTop - offset, behavior: 'smooth' });
+            }
+        });
+    });
+
+    // タブ切り替え
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+            document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+            btn.classList.add('active');
+            document.getElementById('tab-' + btn.dataset.tab).classList.add('active');
+        });
+    });
+
+    // FAQ アコーディオン
+    document.querySelectorAll('.faq-q').forEach(btn => {
+        btn.addEventListener('click', () => {
+            const item = btn.closest('.faq-item');
+            const answer = btn.nextElementSibling;
+            const isOpen = item.classList.contains('open');
+
+            document.querySelectorAll('.faq-item').forEach(i => {
+                i.classList.remove('open');
+                i.querySelector('.faq-a').style.display = 'none';
+            });
+
+            if (!isOpen) {
+                item.classList.add('open');
+                answer.style.display = 'block';
+            }
+        });
+    });
+
+    // フェードイン
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(e => {
+            if (e.isIntersecting) {
+                e.target.classList.add('visible');
+                observer.unobserve(e.target);
+            }
+        });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+</script>
+</body>
+</html>
