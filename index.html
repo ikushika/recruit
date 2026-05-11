@@ -776,6 +776,91 @@
             letter-spacing: 0.08em;
         }
 
+        /* ====== FLOW CARDS ====== */
+        .flow-cards {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 24px;
+            align-items: start;
+        }
+
+        .flow-card {
+            background: var(--white);
+            border: 1px solid var(--cream-dark);
+            border-top: 3px solid var(--gold);
+            padding: 32px 24px 48px;
+            text-align: center;
+            position: relative;
+            transition: box-shadow 0.3s;
+        }
+
+        .flow-card:hover {
+            box-shadow: 0 8px 32px rgba(184,150,90,0.15);
+        }
+
+        .flow-card-num {
+            font-family: 'Cormorant Garamond', serif;
+            font-size: 42px;
+            color: var(--gold);
+            opacity: 0.35;
+            line-height: 1;
+            margin-bottom: 12px;
+        }
+
+        .flow-card-icon {
+            font-size: 28px;
+            color: var(--gold);
+            margin-bottom: 16px;
+        }
+
+        .flow-card-title {
+            font-size: 15px;
+            font-weight: 700;
+            color: var(--ink);
+            margin-bottom: 12px;
+            letter-spacing: 0.04em;
+        }
+
+        .flow-card-text {
+            font-size: 13px;
+            color: var(--ink-light);
+            line-height: 2;
+        }
+
+        .flow-card-arrow {
+            position: absolute;
+            bottom: -18px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 36px;
+            height: 36px;
+            background: var(--gold);
+            color: var(--ink);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            z-index: 2;
+        }
+
+        .flow-card-last {
+            background: var(--ink);
+            border-color: var(--gold);
+        }
+
+        .flow-card-last .flow-card-num { color: var(--gold); opacity: 0.5; }
+        .flow-card-last .flow-card-icon { color: var(--gold); }
+        .flow-card-last .flow-card-title { color: var(--white); }
+        .flow-card-last .flow-card-text { color: #c8b99a; }
+
+        @media (max-width: 768px) {
+            .flow-cards {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .flow-card { padding: 28px 24px 48px; }
+        }
+
         /* ====== FADE IN ====== */
         .fade-in {
             opacity: 0;
@@ -1024,8 +1109,9 @@
                     <tr>
                         <td>給与</td>
                         <td>
-                            <span class="salary-highlight">¥225,000〜</span><br>
-                            <span style="font-size:13px;color:#8a7a6a;">固定残業代 ¥50,000含む（30時間分）／超過分は別途支給</span>
+                            <span class="salary-highlight">¥300,000〜</span><br>
+                            <span style="font-size:13px;color:#8a7a6a;">固定残業代 ¥50,000含む（30時間分）／超過分は別途支給</span><br>
+                            <span style="font-size:13px;color:#8a7a6a;">※研修期間あり</span>
                         </td>
                     </tr>
                     <tr>
@@ -1082,26 +1168,33 @@
             <span>Application Flow</span>
         </div>
         <h2 class="section-title">応募から採用までの流れ</h2>
-        <div class="flow-steps fade-in">
-            <div class="flow-step">
-                <div class="flow-num">1</div>
-                <h3 class="flow-step-title">Web応募 / お電話</h3>
-                <p class="flow-step-text">Googleフォームまたはお電話でご応募ください。フォームは24時間受付中です。</p>
+        <div class="flow-cards">
+            <div class="flow-card fade-in">
+                <div class="flow-card-num">01</div>
+                <div class="flow-card-icon"><i class="fas fa-paper-plane"></i></div>
+                <h3 class="flow-card-title">Web応募 / お電話</h3>
+                <p class="flow-card-text">Googleフォームまたはお電話でご応募ください。フォームは24時間受付中です。</p>
+                <div class="flow-card-arrow"><i class="fas fa-chevron-down"></i></div>
             </div>
-            <div class="flow-step">
-                <div class="flow-num">2</div>
-                <h3 class="flow-step-title">日程調整</h3>
-                <p class="flow-step-text">採用担当からご連絡し、面接の日程を調整します。ご希望の曜日・時間をお知らせください。</p>
+            <div class="flow-card fade-in">
+                <div class="flow-card-num">02</div>
+                <div class="flow-card-icon"><i class="fas fa-calendar-check"></i></div>
+                <h3 class="flow-card-title">日程調整・ご連絡</h3>
+                <p class="flow-card-text">採用担当からご連絡し、面接の日程を調整します。ご希望の曜日・時間をお知らせください。</p>
+                <div class="flow-card-arrow"><i class="fas fa-chevron-down"></i></div>
             </div>
-            <div class="flow-step">
-                <div class="flow-num">3</div>
-                <h3 class="flow-step-title">面接（対面）</h3>
-                <p class="flow-step-text">店舗の雰囲気や仕事内容をご説明します。緊張せず、あなたの「やる気」をお聞かせください。</p>
+            <div class="flow-card fade-in">
+                <div class="flow-card-num">03</div>
+                <div class="flow-card-icon"><i class="fas fa-comments"></i></div>
+                <h3 class="flow-card-title">面接（対面）</h3>
+                <p class="flow-card-text">店舗の雰囲気や仕事内容をご説明します。緊張せず、あなたの「やる気」をお聞かせください。</p>
+                <div class="flow-card-arrow"><i class="fas fa-chevron-down"></i></div>
             </div>
-            <div class="flow-step">
-                <div class="flow-num">4</div>
-                <h3 class="flow-step-title">採用・勤務開始</h3>
-                <p class="flow-step-text">初出勤に向けて準備を進めます。最高のチームでお待ちしています。</p>
+            <div class="flow-card flow-card-last fade-in">
+                <div class="flow-card-num">04</div>
+                <div class="flow-card-icon"><i class="fas fa-star"></i></div>
+                <h3 class="flow-card-title">採用・勤務開始！</h3>
+                <p class="flow-card-text">初出勤に向けて準備を進めます。最高のチームで心よりお待ちしています。</p>
             </div>
         </div>
     </div>
